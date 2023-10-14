@@ -9,7 +9,7 @@ const eliminarTipoDeEventoRoutes = require('./routes/tipoDeEvento.routes.js')
 
 const app = express();
 
-// Habilita CORS //
+// Habilita CORS 
 app.use(cors());
 
 app.use(morgan('dev'));
